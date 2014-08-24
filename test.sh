@@ -13,5 +13,6 @@ fi
 vim -Nu <(cat << EOF
 filetype off
 set rtp+=$vader
+set rtp+=.
 filetype plugin indent on
 EOF) +Vader tests/*.vader
