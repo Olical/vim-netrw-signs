@@ -10,9 +10,9 @@ else
 	cd ..
 fi
 
-vim -Nu <(cat << EOF
+vim -Nu <(cat << VIMRC
 filetype off
 set rtp+=$vader
 set rtp+=.
 filetype plugin indent on
-EOF) +Vader tests/*.vader
+VIMRC) -c 'Vader! tests/*.vader' > /dev/null

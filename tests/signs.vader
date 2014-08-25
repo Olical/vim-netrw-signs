@@ -1,0 +1,13 @@
+Before (configure and navigate to harness directory):
+  let g:netrw_signs_checks={
+    \'contains-hyphen': 'ContainsHyphen',
+    \'contains-upper-case': 'ContainsUpperCase'
+  \}
+  let g:netrw_signs_styles={
+    \'error': 'text=>> texthl=ErrorMsg',
+    \'warning': 'text=>> texthl=WarningMsg'
+  \}
+  let g:netrw_signs_bindings={
+    \'contains-hyphen': 'error',
+    \'contains-upper-case': 'warning'
+  \}
