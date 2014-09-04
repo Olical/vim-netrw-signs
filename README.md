@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Wolfy87/vim-netrw-signs.png?label=ready&title=Ready)](https://waffle.io/Wolfy87/vim-netrw-signs)
 # vim-netrw-signs
 
 Like [vim-signify][] or [syntastic][] but for netrw. I'm writing about this as I build it [over on my blog][devlog].
